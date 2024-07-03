@@ -5,7 +5,7 @@ function LoginForm() {
     const [password, setPassword] = useState<string>('');
 
     const handleSubmit = () => {
-        console.log(`Email: ${email}, Password: ${password}`);
+        console.log(`이메일: ${email}, 비밀번호: ${password}`);
     };
 
     const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
