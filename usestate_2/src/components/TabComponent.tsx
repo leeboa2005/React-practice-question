@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 
 const TabComponent: React.FC = () => {
     const [activeTab, setActiveTab] = useState<number>(0);
-    const tabs = ['Tab 1', 'Tab 2', 'Tab 3'];
-    const content = ['Content 1', 'Content 2', 'Content 3'];
-
+    const tabs: string[] = ['Tab 1', 'Tab 2', 'Tab 3'];
+    const content: string[] = ['Content 1', 'Content 2', 'Content 3'];
     return (
         <div>
             <div>
